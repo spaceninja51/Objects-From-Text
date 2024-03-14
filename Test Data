@@ -1,0 +1,92 @@
+Host USB Devices:
+
+UUID:               f44db0cd-921d-4d6d-9a98-6d37f6d707fd
+VendorId:           0x5986 (5986)
+ProductId:          0x214d (214D)
+Revision:           87.8 (8708)
+Port:               3
+USB version/speed:  2/High
+Manufacturer:       Acer, Inc
+Address:            {36fc9e60-c465-11cf-8056-444553540000}\0004
+Current State:      Busy
+
+UUID:               90c64b18-21a9-427e-96c8-e39029996d1d
+VendorId:           0x10a5 (10A5)
+ProductId:          0x9800 (9800)
+Revision:           35.5 (3505)
+Port:               3
+USB version/speed:  1/High
+Address:            {53d29ef7-377c-4d14-864b-eb3a85769359}\0000
+Current State:      Busy
+
+UUID:               3afbef75-437f-44dc-8a47-f3884c0cf91b
+VendorId:           0x1038 (1038)
+ProductId:          0x161a (161A)
+Revision:           0.40 (0040)
+Port:               3
+USB version/speed:  2/Full
+Manufacturer:       SteelSeries
+Product:            SteelSeries Apex 3
+Address:            {36fc9e60-c465-11cf-8056-444553540000}\0061
+Current State:      Busy
+
+UUID:               7d322418-6cfd-489b-afb3-5aec168b48e8
+VendorId:           0x0bda (0BDA)
+ProductId:          0x5418 (5418)
+Revision:           1.1 (0101)
+Port:               5
+USB version/speed:  2/High
+Manufacturer:       Realtek Semiconductor Corp.
+Address:            {88bae032-5a81-49f0-bc3d-a4ff138216d6}\0003
+Current State:      Busy
+
+UUID:               a4c42c26-dff2-4da9-a291-19d0184786a7
+VendorId:           0x0bda (0BDA)
+ProductId:          0x5418 (5418)
+Revision:           1.1 (0101)
+Port:               5
+USB version/speed:  2/High
+Manufacturer:       Realtek Semiconductor Corp.
+Address:            {88bae032-5a81-49f0-bc3d-a4ff138216d6}\0004
+Current State:      Busy
+
+UUID:               40caac69-8962-4293-b9d2-d3814ff03d56
+VendorId:           0x0bda (0BDA)
+ProductId:          0x1100 (1100)
+Revision:           1.1 (0101)
+Port:               6
+USB version/speed:  2/High
+Manufacturer:       Realtek Semiconductor Corp.
+Address:            {745a17a0-74d3-11d0-b6fe-00a0c90f57da}\0064
+Current State:      Busy
+
+UUID:               e482f7cf-f8bc-4786-967e-15db5777476f
+VendorId:           0x0bda (0BDA)
+ProductId:          0x1100 (1100)
+Revision:           1.1 (0101)
+Port:               6
+USB version/speed:  2/High
+Manufacturer:       Realtek Semiconductor Corp.
+Address:            {745a17a0-74d3-11d0-b6fe-00a0c90f57da}\0066
+Current State:      Busy
+
+UUID:               2b72e549-2b14-44b7-a918-9df9e37a044c
+VendorId:           0x0489 (0489)
+ProductId:          0xe0cd (E0CD)
+Revision:           1.0 (0100)
+Port:               4
+USB version/speed:  2/High
+Manufacturer:       Foxconn / Hon Hai
+Address:            {36fc9e60-c465-11cf-8056-444553540000}\0005
+Current State:      Busy
+
+UUID:               9eca0394-50a4-4298-bd7e-5147a7ef2a0d
+VendorId:           0x046d (046D)
+ProductId:          0xc539 (C539)
+Revision:           57.6 (5706)
+Port:               4
+USB version/speed:  2/Full
+Manufacturer:       Logitech
+Product:            USB Receiver
+Address:            {88bae032-5a81-49f0-bc3d-a4ff138216d6}\0009
+Current State:      Busy
