@@ -28,7 +28,7 @@ function ObjectsFromList {
     $entries, $invalidEntries = @()
     $currentEntry = [Entry]::new()
 
-    foreach ($line in $text -split "`r`n") {
+    foreach ($line in $text.Split("`r`n")) {
         if (![string]::IsNullOrWhiteSpace($line.Trim())) {
             $split = $line.Split($divider)
             if ($split.Count -eq 2) {
@@ -46,21 +46,16 @@ function ObjectsFromList {
             }
         } else {
             if ($currentEntry.PSObject.Properties.Count -gt 0) {
-                $entries += $currentEntry
+                $entries = $entries + $currentEntry
             }
             $currentEntry = [Entry]::new()
         }
     }
-
-    return {
-        $entries
-        $invalidEntries
-    }
+    return
 }
 
 #below is an example of data that can be passed to the function
-$example = "
-UUID: 0000:00:14.0
+$example = "UUID: 0000:00:14.0
 VendorID: 8086
 ProductID: 8d31
 Port: 00
