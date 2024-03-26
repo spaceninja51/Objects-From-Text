@@ -8,13 +8,21 @@ function Parse-Output {
             }
         $line = $line.Replace('[\s]', '')
         $infoPair = $line.Split($divider)
+        $property = $infoPair[0]
+        $value = $infoPair[1]
         if (-not $infoPair[0] -or -not $infoPair[1]) {
             $property = "MISSING"
             $value = "MISSING"
         }
-        $property = $infoPair[0]
-        $value = $infoPair[1]
-        Add-Member -inputObject $entry -NotePropertyName $property -NotePropertyValue $value
+        try {
+            Add-Member -inputObject $entry -NotePropertyName $property -NotePropertyValue $value
+        }
+        catch {
+           $append++
+           $property + $append
+           $value + $append
+        }
+        
         $entries += $entry
     }
     $entries
